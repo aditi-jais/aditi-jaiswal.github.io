@@ -11,7 +11,7 @@ html{
 
 
 nav {
-    background-color: rgb(54, 61, 61);
+    background-color: rgba(52, 45, 45, 0.631);
     height: 30px;
     position: fixed;
     top: 0px;
@@ -45,8 +45,8 @@ nav {
 }
 
 .nav-links a {
-    margin: 30px;
-    font-size: 20px;
+    margin: 3px;
+    font-size: 12px;
     color: aliceblue;
     text-decoration: none;
 }
@@ -61,8 +61,8 @@ nav {
 .nav-links li::after {
     content: '';
     width: 0%;
-    height: 5px;
-    background-color: #f44336;
+    height: 0.5px;
+    background-color: #36c8f4;
 
     /* display property means starts on a new line and takes up the available screen width. */
     display: block;
@@ -72,15 +72,15 @@ nav {
 }
 
 .nav-links li:hover::after {
-    width: 80%;
-    height: 2px;
-    background-color: #f44336;
+    width: 90%;
+    height: 0.5px;
+    background-color: #36c8f4;
     display: block;
     margin: auto;
 }
 
 .container {
-    background-image: linear-gradient(rgba(58, 46, 46, 0.7), rgba(58, 46, 46, 0.7)), url(images/20_background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/20_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -114,6 +114,15 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+.home h1{
+    font-size: 35px;
+    color: rgb(113, 203, 235);
+}
+.home p{
+    padding-top: 20px;
+     font-size: 20px;
+    color: rgb(253, 254, 252);
+}
 
 .about {
     height: 100vh;
@@ -131,14 +140,14 @@ nav {
     margin-left: auto;
     margin-right: auto;
     border: ridge 0px black;
-    box-shadow: 2px 9px 20px rgb(39, 38, 38);
+    /* box-shadow: 2px 9px 20px rgb(39, 38, 38); */
 }
 .about2{
     height: 100%;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(212, 207, 207);
+    background-color: rgb(255, 255, 255);
 
     
     justify-content: space-around;
@@ -229,8 +238,8 @@ nav {
     border: solid 0px rgb(0, 0, 0);
     border-radius: 30%;
     box-shadow: 0px 0px 20px black;
-    height: 200px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     display: flex;
     align-items: center;
     
@@ -238,9 +247,9 @@ nav {
     
 }
 .sk img{
-    height: 100px;
+    height: 80px;
     border: solid 0px black;
-    border-radius: 30%;
+    border-radius: 10%;
     /* overflow: hidden; */
     margin-left: auto;
     margin-right: auto;
@@ -252,15 +261,15 @@ nav {
 .code{
     height: 100vh;
     width: 100%;
-    background-color: #beb7b4;
+    background-color: rgb(245, 237, 237);
     display: flex;
     align-items: center;
 }
 .code1{
     height: 80%;
     width: 80%;
-    background-color: rgb(106, 86, 86);
-    box-shadow: 0px 0px 20px black;
+    /* background-color: rgb(210, 201, 201); */
+    /* box-shadow: 0px 0px 20px black; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -268,8 +277,8 @@ nav {
     justify-content: space-around;
 }
 .cp{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: solid 0px rgb(0, 0, 0);
     border-radius: 30%;
     overflow: hidden;
@@ -296,14 +305,14 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #d1aa97;
+    background-color: rgb(242, 234, 234)
 }
 .contact1{
     height: 80%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 0px 20px rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
     background-color: #ffffff;
 }
 .contact2{
@@ -337,6 +346,6 @@ footer {
     text-align: center;
     padding: 5px;
     margin: 1px;
-    background-color: rgb(55, 19, 7);
+    background-color: rgb(177, 145, 134);
     color: white;
 }
